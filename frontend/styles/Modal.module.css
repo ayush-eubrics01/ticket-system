@@ -1,0 +1,101 @@
+.notVisible{
+    display: none;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+.main_modal{
+    padding: 2rem;
+    background-color: wheat;
+    border-radius: 0.5rem;
+    min-width: 480px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: middle;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    display: inline;
+}
+
+.modalCloseButton{
+    cursor: pointer;
+    display: inline;
+    font-size: 1.5rem;
+}
+
+.modalForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fieldLabel{
+    display: inline;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.fieldInput{
+    display: inline;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: none;
+}
+
+.fieldTextArea{
+    display: inline;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: none;
+    resize: none;
+    height: 100px;
+}
+
+.formSubmitButton{
+    display: inline;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: none;
+    background-color: white;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+}
+
